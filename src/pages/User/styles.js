@@ -5,6 +5,14 @@ export const Container = styled.View`
   padding: 30px;
 `;
 
+export const Loading = styled.View`
+  width: 100%;
+  height: 425px;
+  background-color: #eee;
+  align-items: center;
+  justify-content: center;
+`;
+
 export const Header = styled.View`
   align-items: center;
   padding-bottom: 20px;
