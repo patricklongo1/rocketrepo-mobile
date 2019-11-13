@@ -75,7 +75,7 @@ export default class User extends Component {
   handleNavigate = repository => {
     const { navigation } = this.props;
 
-    navigation.navigate('Repository', { repository });
+    navigation.navigate('WebView', { repository });
   };
 
   render() {
@@ -94,7 +94,7 @@ export default class User extends Component {
 
         {loading ? (
           <Loading>
-            <ActivityIndicator size={75} />
+            <ActivityIndicator size={75} color="#7159c1" />
           </Loading>
         ) : (
           <Stars
